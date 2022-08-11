@@ -13,6 +13,7 @@
     position: relative;
     z-index: 10;
     position: fixed;
+    border-bottom: 1px solid #d3d3d3;
 }
 
 #main-header .container {
@@ -431,6 +432,7 @@ select {
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: 50%;
+    outline-style: none;
 }
 
 .icon-box {

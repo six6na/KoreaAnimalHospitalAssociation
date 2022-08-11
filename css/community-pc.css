@@ -1,16 +1,38 @@
-/* introduce css */
-.container {
-    width: 1400px;
-    margin: 0 auto;
-}
-
-.container-n {
+  /*community-pc.css  */
+  .container {
     width: 100%;
     padding-left: 30px;
     padding-right: 30px;
     /* outline: 1px solid red; */
 }
 
+  /* body {
+    font-size: 18px;
+    background: #F5F5F5;
+    font-family: 'Noto Sans KR';
+  } */
+  
+  /* h2 {
+    font-family: 'Noto Sans KR';
+    font-size: 26px;
+    font-weight: 800;
+    width:1380px;
+    outline: 1px solid red;
+  }
+  
+  h4 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  
+  section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  } */
+  
 /* main-header */
 #main-header {
     width: 100%;
@@ -130,21 +152,8 @@
 #toggle-btn {
     display: none;
 }
-
-#section01-introduce {
-    height: 650px;
-    margin-top: 80px;
-    /* outline: 1px solid red; */
-}
-
-#section02-introduce {
-    height: 650px;
-    margin-top: 80px;
-    /* outline: 1px solid red; */
-}
-
-
-#introduce-banner {
+  
+#banner-title {
     width: 100%;
     height: calc(150px + var(--pc-header-height));
     padding-top: var(--pc-header-height);
@@ -155,9 +164,10 @@
     background: #d3d3d3;
     font-size: 32px;
     color: #fff;
-    background-image: url(../images/introduce-banner.jpg);
+    background-image: url(../images/comu-title.jpg);
 }
 
+/* 2단계 메뉴 */
 .depth2-menu {
     /* outline: 1px solid red; */
     margin-bottom: 50px;
@@ -171,11 +181,7 @@
     /* align-items: flex-start; */
 }
 
-.depth2-menu .d2-gnb .greeting,
-.depth2-menu .d2-gnb .intro,
-.depth2-menu .d2-gnb .his,
-.depth2-menu .d2-gnb .found,
-.depth2-menu .d2-gnb .work
+.depth2-menu .d2-gnb .comu
 {
     color: #000;
     width: 110px;
@@ -188,10 +194,7 @@
     justify-content: center;
 }
 
-.depth2-menu .d2-gnb .greeting.on,
-.depth2-menu .d2-gnb .intro.on
-
-{
+.depth2-menu .d2-gnb .comu.on {
     color: #000;
     width: 110px;
     height: 70px;
@@ -204,8 +207,21 @@
     border-bottom: 2px solid #155295;
 }
 
+/* ---------------------------------------------------------- */
+.container-sj {
+    width:1440px;
+    /*outline: 1px solid red; */
+    margin: 0 auto;
+}
 
-#section01-introduce .header {
+#intro1 {
+    display: flex;
+    justify-content: center;
+    /* outline: 1px solid red; */
+    margin-bottom: 60px;
+}
+  
+#intro1 .container .header {
     width: 100%;    
     font-size: 32px;
     display: flex;
@@ -216,111 +232,109 @@
     /* outline: 1px solid blue; */
 }
 
-#section01-introduce .header h1 {
+#intro1 .container .header .comu-title {
+    font-size: 32px;
+    font-weight: 500;
     padding-bottom: 5px;
     border-bottom: 1px solid #000;
 }
 
-#section01-introduce .container {
+#intro1 .container h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#intro1 .container p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+  
+#intro1 .row {
+    /* outline: 1px solid orange; */
+    display: flex;
+    justify-content: space-between;
+}
+  
+#FAQ-banner {
+    display: flex;
+    justify-content: center;
+    /* outline: 1px solid red; */
+    margin-bottom: 60px;
+}
+
+#FAQ-banner .FaQ-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* outline: 1px solid brown; */
+    width: 364px;
+    margin-bottom: 20px;
 }
 
-#section01-introduce .col {
-    /* outline: 1px solid #333; */
-}
-
-#section01-introduce .col image {
-    width: 100%;
-}
-
-#section01-introduce .col p {
+#FAQ-banner .FaQ-box h2 {
     font-size: 30px;
     font-weight: 500;
-    width: 712px;
-    height: 430px;
+}
+  
+#FAQ-banner h3{
+    padding-top:20px;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 37px;
+    background: #d3d3d3;
+    border-bottom: 1px solid rgb(133, 133, 133);
 }
 
-#section02-ethics .header {
-    width: 100%;    
-    font-size: 32px;
+#FAQ-banner h3 img {
+    margin-right: 30px;
+}
+
+#FAQ-banner h3:last-child {
+    border-bottom: none;
+}
+
+#intro .container .row {
     display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 50px;
     /* outline: 1px solid blue; */
-}
-
-#section02-ethics .header h1 {
-    padding-bottom: 5px;
-    border-bottom: 1px solid #000;
-}
-
-#section02-ethics .container {
-    display: flex;
+    /* justify-content: space-between; */
     flex-direction: column;
-    align-items: center;
+}
+
+#intro .container .row .col-img {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+#intro .container .row .col-text {
+    display: flex;
+    /* outline: 1px solid yellow; */
+    justify-content: space-between;
+} 
+
+#intro .container .row .col-text h4 {
     text-align: center;
-}
-
-#section02-ethics .container .col p {
-    width: 1022px;
-    font-size: 20px;
-    font-weight: 500;
-}
-
-#section02-ethics .container .col.list {
-    width: 1200px;
-    height: 350px;
-    outline: 1px solid #000;
-    padding: 40px 30px 40px 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-#section02-ethics .container .col ol {
-    width: 1135px;
-    height: 266px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#section02-ethics .container .col ol li {
-    list-style-type: decimal;
-    text-align: left;
-    margin-bottom: 15px;
-    font-size: 25px;
-    font-weight: 500;
-    width: 1090px;
-    margin-right: 0;
-}
-
-#section02-ethics .container .col ol li:last-child {
-    margin-bottom: 0;
-}
-
-#section02-ethics .container .col h1 {
-    font-size: 30px;
-    margin-top: 30px;
+    width: 430px;
+    /* outline: 1px solid orangered; */
 }
 
 /* footer */
-
 footer {
     width: 100%;
     height: 160px;
     background: #f2f3f4;
     margin-top: 74px;
+    display: flex;
+    justify-content: center;
 }
 
 footer .container {
     width: 1440px;
     display: flex;
     justify-content: space-between;
+    /* outline: 1px solid yellowgreen; */
 }
 
 footer h1 {
