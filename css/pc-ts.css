@@ -108,6 +108,14 @@
     cursor: pointer;
 }
 
+#log-btn:hover {
+    background: #155299;
+}
+
+#log-btn a:hover {
+    color: #fff;
+}
+
 #log-btn a{
     color: #155299;
 }
