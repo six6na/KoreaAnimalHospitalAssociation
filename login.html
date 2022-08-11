@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- style.css(공통) -->
     <link rel="stylesheet" href="./css/style.css">
-    <!-- login.css
-    <link rel="stylesheet" href="css/login.css"> -->
+
     <!-- mobile.css -->
     <link 
     rel="stylesheet" 
@@ -32,10 +31,10 @@
 </head>
 <body>
 
-    <header id="main-header" class="clearfix">
-        <div class="container">
+    <header id="main-header" class="clearfix container-n">
+        <div>
             <h1>
-                <a href="#">
+                <a href="./index.html">
                     <img src="images/main-logo.png" alt="main-logo">
                 </a>
             </h1>
@@ -45,7 +44,7 @@
                     <li><a href="#">KAHA소개</a>
                         <ul class="sub">
                             <li><a href="#">인사말</a></li>
-                            <li><a href="#">설립목적</a></li>
+                            <li><a href="./introduce.html">설립목적</a></li>
                             <li><a href="#">연혁</a></li>
                             <li><a href="#">기구</a></li>
                             <li><a href="#">주요업무</a></li>
@@ -55,21 +54,22 @@
                         <ul class="sub">
                             <li><a href="./noti.html">공지사항</a></li>
                             <li><a href="./news.html">보도자료</a></li>
-                            <li><a href="#">자료실</a></li>
+                            <li><a href="./login.html">자료실</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">학술지원</a></li>
+                    <li><a href="./login.html">학술지원</a></li>
                     <li><a href="#">커뮤니티</a></li>
                     <li><a href="#">오시는 길</a></li>
                 </ul>
             </nav>
-            <button id="log-btn"><a href="#">LOGIN</a></button>
+            <button id="log-btn"><a href="./login.html">LOGIN</a></button>
             <button id="toggle-btn">
                <i class="bi bi-list"></i>
             </button>
         </div>
     </header>
 
+    <div class="login-con">
     <section id="section01-login">
       <article>   
           <div class="container-login">
@@ -97,7 +97,7 @@
           <button class="login-button" type="submit">LOGIN</button>
           <h1 class="login-password">
               <div class="passl">
-                아이디 | 비밀번호 찾기 | 회원가입 </div>
+                아이디 | 비밀번호 찾기 | 회원가입 ▶</div>
               </h1>
             <h1 class="or-hr">
               <div class="or-hrbx">
@@ -106,14 +106,16 @@
                   <div class="r"></div>
               </div>
             </h1> 
+            <nav class="login-sns">
+                <a href="#"><i class="bi bi-line"></i></a>
+                <a href="#"><i class="bi bi-google"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+            </nav>
           </div>
-        <nav class="login-sns">
-            <a href="#"><i class="bi bi-line"></i></a>
-            <a href="#"><i class="bi bi-google"></i></a>
-            <a href="#"><i class="bi bi-apple"></i></a>
-        </nav>
+
     </nav>
     </section>
+    </div>
 
     <footer>
         <div class="container">
@@ -149,5 +151,5 @@
         </div>
         </div>
     </footer>
-</body>
+  </body>
 </html>
