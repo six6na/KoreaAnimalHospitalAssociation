@@ -117,6 +117,14 @@
     color: #155299;
 }
 
+#log-btn:hover {
+    background: #155299;
+}
+
+#log-btn a:hover {
+    color: #fff;
+}
+
 #toggle-btn {
     display: none;
 }
