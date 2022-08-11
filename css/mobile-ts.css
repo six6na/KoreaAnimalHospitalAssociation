@@ -89,7 +89,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     background: #155299;
 }
 #main-count.container{
@@ -212,6 +212,7 @@
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: 150px;
+    margin-top: 20px;
 }
 
 .text a {
@@ -273,7 +274,7 @@ display: none;
 .tab_buttons {
     width: 100vw;
     display: flex;
-
+    justify-content: center;
     /* padding-left: 30px; */
 
 }
