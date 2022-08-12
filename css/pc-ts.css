@@ -152,6 +152,10 @@
     border: 1px solid transparent; 
 }
 
+#menu {
+    display: none;
+}
+
 /* count */
 
 #main-count {

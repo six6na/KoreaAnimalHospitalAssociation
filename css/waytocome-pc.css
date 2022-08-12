@@ -131,6 +131,10 @@
     display: none;
 }
 
+#menu {
+    display: none;
+}
+
 #waytocome-banner {
     width: 100%;
     height: calc(150px + var(--pc-header-height));

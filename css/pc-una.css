@@ -134,6 +134,10 @@ a:hover {
     text-decoration: none;
 }
 
+#menu {
+    display: none;
+}
+
 /* 이미지 배너 */
 #banner-title {
     width: 100%;

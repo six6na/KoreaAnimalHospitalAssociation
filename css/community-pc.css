@@ -152,6 +152,10 @@
 #toggle-btn {
     display: none;
 }
+
+#menu {
+    display: none;
+}
   
 #banner-title {
     width: 100%;

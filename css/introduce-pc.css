@@ -131,6 +131,10 @@
     display: none;
 }
 
+#menu {
+    display: none;
+}
+
 #section01-introduce {
     height: 650px;
     margin-top: 80px;
