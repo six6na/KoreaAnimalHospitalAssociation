@@ -376,7 +376,7 @@ a:hover {
 footer {
     width: 100vw;
     height: 190px;
-    background: #f2f3f4;
+    /* background: #f2f3f4; */
     margin-top: calc(100px - 15px);
   }
   

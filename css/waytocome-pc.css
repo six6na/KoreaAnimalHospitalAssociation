@@ -6,8 +6,8 @@
 
 .container-n {
     width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
+    /* padding-left: 30px; */
+    /* padding-right: 30px; */
     /* outline: 1px solid red; */
 }
 
@@ -146,7 +146,7 @@
     background: #d3d3d3;
     font-size: 32px;
     color: #fff;
-    background-image: url(../images/wtc-banner.png);
+    background-image: url(../images/wtc-banner.jpg);
 }
 
 .depth2-menu {
@@ -286,7 +286,7 @@
 footer {
     width: 100%;
     height: 160px;
-    background: #f2f3f4;
+    /* background: #f2f3f4; */
     margin-top: 74px;
 }
 

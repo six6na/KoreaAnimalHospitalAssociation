@@ -192,7 +192,8 @@
     text-align: center;
     width: 100%;
     height: calc(150px + var(--mobile-header-height));
-    background-image: url(../images/grt-banner.png);
+    background-image: url(../images/grt-banner.jpg);
+    background-position: center;
     padding-top: var(--mobile-header-height);
     display: flex;
     align-items: center;
@@ -306,7 +307,7 @@
 footer {
     width: 100vw;
     height: 190px;
-    background: #f2f3f4;
+    /* background: #f2f3f4; */
     margin-top: 100px;
   }
   

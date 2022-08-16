@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <link 
     rel="stylesheet" 
-    href="./css/mobile-ts.css" 
+    href="./css/mobile-ts.css"  
     media="screen and (max-width: 767px)"
-    >
+  >
   <!-- pc.css: 768px 부터(큰화면) - Breakpoint(중단점) -->
   <link 
     rel="stylesheet" 
@@ -22,52 +22,55 @@
   >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="./js/main.js"></script>
 </head>
 <body>
-    <header id="main-header" class="clearfix">
+    <header id="main-header" class="clearfix"> 
         <div class="container">
             <h1>
-                <a href="./index.html">
+                <a href="./index.html"> 
                     <img src="images/main-logo.png" alt="main-logo">
                 </a>
             </h1>
             <nav>
                 <div class="nav-bg"></div>
                 <ul class="gnb">
-                    <li><a href="#">KAHA소개</a>
+                    <li><a href="./greeting.html">KAHA소개</a>
                         <ul class="sub">
                             <li><a href="./greeting.html">인사말</a></li>
                             <li><a href="./introduce.html">설립목적</a></li>
-                            <li><a href="#">연혁</a></li>
-                            <li><a href="#">기구</a></li>
-                            <li><a href="#">주요업무</a></li>
+                            <li><a>연혁</a></li>
+                            <li><a>기구</a></li>
+                            <li><a>주요업무</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">홍보활동</a>
+                    <li><a href="./noti.html">홍보활동</a>
                         <ul class="sub">
                             <li><a href="./noti.html">공지사항</a></li>
                             <li><a href="./news.html">보도자료</a></li>
-                            <li><a href="./login.html">자료실</a></li>
+                            <li><a>자료실</a></li>
                         </ul>
                     </li>
-                    <li><a href="./login.html">학술지원</a></li>
+                    <li><a>학술지원</a></li>
                     <li><a href="./community.html">커뮤니티</a></li>
                     <li><a href="./waytocome.html">오시는 길</a></li>
                 </ul>
             </nav>
             <button id="log-btn"><a href="./login.html">LOGIN</a></button>
+            
             <button id="toggle-btn">
-               <i class="bi bi-list"></i>
+               <a href="#">
+                <i class="bi bi-list"></i>
+                </a>
             </button>
         </div>
+        
+    <!-- 메뉴 슬라이드  -->
 
-         <!-- 메뉴 슬라이드  -->
-
-         <div id="menu">
+        <div id="menu">
             <article>
                 <h1>
-                    <a href="./index.html">
+                    <a href="#">
                         <img src="images/main-logo.png" alt="menu-main-logo">
                     </a>
                 </h1>
@@ -76,8 +79,8 @@
             <ul class="m-gnb">
                 <li><a>KAHA소개</a>
                 <ul class="m-sub">
-                    <a href="./greeting.html"><li>인사말</li></a>
-                    <a href="./introduce.html"><li>설립목적</li></a>
+                    <a href="./"><li>인사말</li></a>
+                    <a href="./"><li>설립목적</li></a>
                     <a href="./"><li>연혁</li></a>
                     <a href="./"><li>기구</li></a>
                     <a href="./"><li>주요업무</li></a>
@@ -86,26 +89,25 @@
             
                <li><a>홍보활동</a>
                     <ul class="m-sub">
-                        <a href="./noti.html"><li>공지사항</li></a>
-                        <a href="./news.html"><li>보도자료</li></a>
-                        <a href="./login.html"><li>자료실</li></a>
+                        <a href="./"><li>공지사항</li></a>
+                        <a href="./"><li>보도자료</li></a>
+                        <a href="./"><li>자료실</li></a>
                     </ul>
                 </li>
             
-                <a href="./login.html"><li>학술지원</li></a>
-                <a href="./community.html"><li>커뮤니티</li></a>
-                <a href="./waytocome.html"><li>오시는길</li></a>
+                <a href="./"><li>학술지원</li></a>
+                <a href="./"><li>커뮤니티</li></a>
+                <a href="./"><li>오시는길</li></a>
             </ul> 
             <div class="log-box">
-            <a href="./login.html">로그인</a>
+            <a href="#">로그인</a>
             <a href="#">회원가입</a>
         </div>
         </div>
     </header>
-    
 
      <!-- main-visual -->
-     <div id="main-visual">
+     <div id="main-visual" >
         <!-- Slider main container -->
         <div class="swiper">
         <!-- Additional required wrapper -->
@@ -120,7 +122,48 @@
       </div>
     </div>
 
-    <section id="main-count" class="container">
+<!-- contents section -->
+    <section id="contents" class="container">
+        <div class="con1">
+            <div class="image">
+                <h1>
+                <img src="images/content-1.png" alt="c-1">
+            </h1>
+            </div>
+            <div class="text">
+                <div class="logo-img">
+                <img src="images/mars-logo.png" alt="mars-logo">
+                </div>
+                <div class="text-box">
+                <p>Mars는 반려동물들이 환영받으며<br>
+                건강하고 행복하게 살아갈 수 있는 세상인<br>
+                <span>'A Better World For Pets™'</span><br>
+                를 만드는 데 열정을 쏟고 있습니다.</p>
+                <a href="#">VIEW MORE</a>
+            </div>  
+        </div>
+        </div>
+        <div class="con2">
+            <div class="image">
+                <img src="images/content-2.png" alt="c-2">
+            </div>
+            <div class="text">
+                <div class="logo-img">
+                    <img src="images/hills-logo.png" alt="hills-logo">
+                    </div>
+                <div class="text-box">
+                <p>반려동물들을 위한<span>과학</span>을 기반으로<br>
+                여러분이 보고, 느끼고, 신뢰할 수 있는 <br> 
+                변화를 만들어 냅니다.</p>
+                <a href="#">VIEW MORE</a>
+            </div>  
+            </div>
+         </div>
+    </section>
+
+
+    <!-- count section -->
+    <section id="main-count" class="container" >
         <div class="count">
             <div class="circle">
                     <a href="#">
@@ -148,44 +191,6 @@
             <h1 class="number3">0</h1>
             <p>회원수</p>
         </div>
-    </section>
-
-    <section id="contents" class="container">
-        <div class="con1">
-            <div class="image">
-                <h1>
-                <img src="images/content-1.png" alt="c-1">
-            </h1>
-            </div>
-            <div class="text">
-                <div class="logo-img">
-                <img src="images/mars-logo.png" alt="mars-logo">
-                </div>
-                <div class="text-box">
-                <p>Mars는 반려동물들이 환영받으며<br>
-                건강하고 행복하게 살아갈 수 있는 세상인<br>
-                <span>'A Better World For Pets™'</span><br>
-                를 만드는 데 열정을 쏟고 있습니다.</p>
-            </div>
-            <a href="#">VIEW MORE</a>
-        </div>
-        </div>
-        <div class="con2">
-            <div class="image">
-                <img src="images/content-2.png" alt="c-2">
-            </div>
-            <div class="text">
-                <div class="logo-img">
-                    <img src="images/hills-logo.png" alt="hills-logo">
-                    </div>
-                <div class="text-box">
-                <p>반려동물들을 위한<span>과학</span>을 기반으로<br>
-                여러분이 보고, 느끼고, 신뢰할 수 있는 <br> 
-                변화를 만들어 냅니다.</p>
-            </div>
-                <a href="#">VIEW MORE</a>
-            </div>
-         </div>
     </section>
 
     <section id="main" class="container">        
@@ -266,7 +271,7 @@
         <div class="container">
             <div>
             <h1>
-                <a href="./index.html">
+                <a href="#">
                     <img src="images/footer-logo.png" alt="footer-logo">
                 </a>
             </h1>
