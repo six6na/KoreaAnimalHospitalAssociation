@@ -334,23 +334,18 @@
 #main h1 { 
     font-size: 24px;
     font-weight: 700;
+    top: 0;
+    left: 0;
+    padding-left: 30px;
+    padding-bottom: 10px;
 }
 
 #main .container {
     position: relative;
 }
 
-#main .main-title {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 100px; 
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-
 #main .main-wrap {
-    margin-top: 76px;
+    margin-top: 30px;
 }
 
 .tab_buttons {

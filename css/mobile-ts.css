@@ -383,8 +383,8 @@
 }
 
 
-#main .main-title {
-display: none;
+#main h1 {
+    display: none;
 }
 
 #main .main-wrap {
